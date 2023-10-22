@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import documentReducer from "../redux/slices/billingsSlice";
+import documentReducer from "./slices/documentsSlices";
 
 export default configureStore({
   reducer: documentReducer,
